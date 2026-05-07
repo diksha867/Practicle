@@ -10,6 +10,7 @@ function App() {
 useEffect(()=>{
   fetch=("https://jsonplaceholder.typicode.com/users")
   .then()
+  .then()
 
 ,[];})
  
