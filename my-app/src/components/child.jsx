@@ -11,3 +11,4 @@ function Child({ name, age }) {
 }
 
 export default Child;
+
