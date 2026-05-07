@@ -3,21 +3,20 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Parent from './components/parent'
 
 function App() {
   const [count, setCount] = useState(0)
 
 useEffect(()=>{
   fetch=("https://jsonplaceholder.typicode.com/users")
-  .then()
-  .then()
-
-,[];})
+}, []);
  
 
 
   return (
     <>
+      <Parent />
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
