@@ -7,9 +7,12 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+useEffect(()=>{
+  fetch=("https://jsonplaceholder.typicode.com/users")
+  .then()
 
-
-  }
+,[];})
+ 
 
   return (
     <>
